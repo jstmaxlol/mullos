@@ -1,7 +1,7 @@
-#define MÜLL_STD_H
+#define MÜLL_IO_H
 
 /*
- *    Minimal 'standard library' for I/O basics
+ *    Minimal API for kernel I/O basics
  */
 
 // includes
