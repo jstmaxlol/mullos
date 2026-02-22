@@ -12,4 +12,4 @@ the objectives for müllos are to have:
 - a C compiler work on it
 - an integrated minimal userland shell.
 - a simple filesystem
-- mutlitasking
+- multitasking
