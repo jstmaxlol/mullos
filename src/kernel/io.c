@@ -1,11 +1,8 @@
-#define MÜLL_IO_H
+#include "api/io.h"
 
 /*
  *    Minimal API for kernel I/O basics
  */
-
-// includes
-#include <stdint.h>
 
 volatile uint16_t* VGA = (volatile uint16_t*)0xB8000;
 uint16_t cursor = 0;

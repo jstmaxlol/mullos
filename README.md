@@ -5,6 +5,10 @@ the name is based off the german word for trash. haha.
 
 ---
 
+#### things
+müllos uses the [limine bootloader](https://github.com/limine-bootloader/limine) because the [müll_bootloader](https://github.com/jstmaxlol/mullos/tree/master/.old/) sucked. 
+
+---
 
 #### objectives
 
