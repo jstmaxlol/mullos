@@ -53,7 +53,7 @@ iso: $(KERNEL)
 	limine bios-install $(ISO_IMAGE)
 
 run: iso
-	qemu-system-x86_64 -cdrom $(ISO_IMAGE)
+	qemu-system-x86_64 -cdrom $(ISO_IMAGE) #-vga std -device VGA,edid=on,xres=640,yres=320
 
 clean:
 	rm -vrf $(BUILD_DIR)

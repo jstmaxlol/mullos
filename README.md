@@ -3,6 +3,9 @@
 a minimal and experimental x86_64 heapless unix-like OS von czjstmax. \
 the name is based off the german word for trash. haha.
 
+&nbsp;
+> you can test müllos by running `make run` in the cloned repo.
+
 ---
 
 #### things
