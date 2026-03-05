@@ -7,4 +7,4 @@
 // includes
 #include <stdint.h>
 
-void RealPrint(const char* str);
+void VGA_RPrint(const char* str);
