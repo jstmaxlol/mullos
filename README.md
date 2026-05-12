@@ -17,8 +17,8 @@ müllos uses the [limine bootloader](https://github.com/limine-bootloader/limine
 
 the objectives for müllos are to have:
 
-* a C compiler work on it                <!-- same goes here as the bottom note VVVVVVVVV -->
-* an integrated minimal userland shell.  <!-- could make use of [noshmore](https://github.com/jstmaxlol/noshmore) if we get ELFs working on müllos -->
-* a simple filesystem
-* multitasking                           <!-- ish -->
+- a C compiler work on it                <!-- same goes here as the bottom note VVVVVVVVV -->
+- an integrated minimal userland shell.  <!-- could make use of [noshmore](https://github.com/jstmaxlol/noshmore) if we get ELFs working on müllos -->
+- a simple filesystem
+- multitasking                           <!-- ish -->
 
