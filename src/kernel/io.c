@@ -10,7 +10,8 @@ uint16_t cursor = 0;
 void VGA_RPrint(const char* str)
 {
     while(*str) {
-        VGA[cursor++] = (uint8_t)(*str) | 0x0700; // white on black
+                                          // white on black
+        VGA[cursor++] = (uint8_t)(*str) | 0x0700;
         str++;
     }
 } 

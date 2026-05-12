@@ -3,6 +3,7 @@
  */
 
 // C includes
+#include <features.h>
 #include <stddef.h>
 
 // external includes
@@ -10,8 +11,7 @@
 
 // limine things
 __attribute__((used, section(".limine_requests_start")))
-static volatile uint64_t
-limine_requests_start_marker[] = LIMINE_REQUESTS_START_MARKER;
+static volatile uint64_t limine_requests_start_marker[] = LIMINE_REQUESTS_START_MARKER;
 
 __attribute__((used, section(".limine_requests")))
 static volatile uint64_t
@@ -42,6 +42,6 @@ void _start(void)
 
 void kernel_main(void)
 {
-    // todo
+    // TODO
 }
 
