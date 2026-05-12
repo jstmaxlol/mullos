@@ -42,5 +42,6 @@ void _start(void)
 
 void kernel_main(void)
 {
-    //
+    // todo
 }
+
